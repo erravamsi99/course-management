@@ -1,0 +1,21 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "React for Beginners",
+      "instructor": "John Doe",
+      "description": "Learn the basics of React.",
+      "status": "Open",
+      "duration": "4 weeks",
+      "schedule": "Mon, Wed, Fri",
+      "location": "Online",
+      "preRequisites": "Basic JavaScript",
+      "syllabus": [
+        {"week": 1, "topic": "Introduction to React", "content": "Overview of React, setting up your development environment."},
+        {"week": 2, "topic": "Components", "content": "Creating and using components."}
+        
+      ]
+    }
+    
+  ]
+}

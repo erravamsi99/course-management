@@ -1,0 +1,27 @@
+/* src/components/CourseDetails.css */
+.course-details {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-details h1 {
+    margin-top: 0;
+  }
+  
+  .course-details p {
+    margin: 10px 0;
+  }
+  
+  .course-details .syllabus {
+    margin-top: 20px;
+  }
+  
+  .course-details .syllabus-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+  }
+  

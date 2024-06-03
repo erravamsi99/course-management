@@ -1,0 +1,58 @@
+/* src/components/StudentDashboard.css */
+.student-dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .student-dashboard h1 {
+    margin-bottom: 20px;
+  }
+  
+  .enrolled-course {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .enrolled-course img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+  
+  .enrolled-course-details {
+    flex-grow: 1;
+  }
+  
+  .enrolled-course-details h3 {
+    margin: 0;
+  }
+  
+  .enrolled-course-details p {
+    margin: 5px 0;
+  }
+  
+  .enrolled-course .progress {
+    width: 100%;
+    height: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  
+  .enrolled-course .progress-bar {
+    height: 100%;
+    background-color: #007bff;
+    text-align: center;
+    color: white;
+    line-height: 20px;
+    border-radius: 10px;
+  }
+  
